@@ -19,6 +19,7 @@ export type ExperienceItem = {
 export type SkillItem = {
   icon: string,
   name: string,
+  group: string[]
 }
 // #endregion
 
