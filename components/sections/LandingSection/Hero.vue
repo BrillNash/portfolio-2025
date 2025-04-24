@@ -33,7 +33,7 @@
         />
       </div>
     </div>
-    <div class="hidden lg:flex items-center justify-center">
+    <div class="flex sm:hidden lg:flex items-center justify-center">
       <img src="/public/images/cropped2.png" alt="Profile" class="w-[250px] sm:w-[400px] aspect-auto">
     </div>
 
