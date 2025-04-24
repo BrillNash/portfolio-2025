@@ -21,15 +21,15 @@ export const hero: Hero = {
   description: "Full-stack developer specializing in Node.js, Java, and Scala. Focused on high-quality apps, faster delivery, and clean code. Agile team player with a track record of optimizing performance.",
   profile_experiece_list: [
     {
-      num: "3",
+      num: "2",
       description: "Years of experience"
     },
     {
-      num: "50+",
+      num: "5",
       description: "Projects"
     },
     {
-      num: "1.5k",
+      num: "5",
       description: "Clients"
     }
   ]
