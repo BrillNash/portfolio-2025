@@ -1,5 +1,5 @@
 <template>
-  <li class="bg-violet-950/20 flex flex-col justify-center items-center gap-2 h-44 aspect-square p-4 border border-transparent hover:border-violet-600 hover:bg-violet-900/50 duration-500 transition-colors">
+  <li class="bg-violet-950/20 flex flex-col justify-center items-center gap-2 p-4 border border-transparent hover:border-violet-600 hover:bg-violet-900/50 duration-500 transition-colors">
     <UIcon :name="props.skill.icon" class="size-32" :class="{ 'invert': props.skill.name === 'Github' }" />
     <span>{{ props.skill.name }}</span>
   </li>
