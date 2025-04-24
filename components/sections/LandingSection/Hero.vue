@@ -1,19 +1,12 @@
 <template>
-  <div class="flex gap-8 p-20 flex-1">
-    <div class="flex flex-col gap-8 max-w-3xl justify-center text-white">
-      <h1 class="flex flex-col gap-4">
-        <span class="font-bold text-4xl">{{ props.name }}</span>
-        <span class="inline-block text-transparent bg-clip-text bg-linear-to-r from-violet-500 to-cyan-600 text-7xl font-semibold">{{ props.role }}</span>
+  <div class="flex gap-0 sm:gap-8 md:gap-16 p-8 sm:p-20 flex-col sm:flex-row flex-1 min-h-screen relative">
+    <div class="flex flex-col flex-1 gap-8 max-w-3xl justify-center text-white">
+      <h1 class="space-y-4">
+        <p class="font-bold text-2xl sm:text-4xl">{{ props.name }}</p>
+        <p class="inline-block text-transparent bg-clip-text bg-linear-to-r from-violet-500 to-cyan-600 text-5xl sm:text-7xl font-semibold">{{ props.role }}</p>
       </h1>
       <p>{{ props.description }}</p>
       <div class="flex gap-2">
-        <UButton
-          class="rounded-full bg-white text-violet-800 border border-violet-800 py-2 px-8 text-xl"
-          size="md"
-          color="neutral"
-        >
-          Download CV
-        </UButton>
         <UButton
           class="rounded-full bg-white text-violet-800 border border-violet-800 p-3 text-xl"
           size="md"
@@ -40,9 +33,13 @@
         />
       </div>
     </div>
-    <div class="flex items-center justify-center w-full">
-      <img src="/public/images/cropped2.png" alt="Profile" class="w-[400px] aspect-auto">
+    <div class="hidden lg:flex items-center justify-center">
+      <img src="/public/images/cropped2.png" alt="Profile" class="w-[250px] sm:w-[400px] aspect-auto">
     </div>
+
+    <!-- DECORATIVE -->
+    <div class="absolute top-1/2 left-0 bg-violet-600/20 rounded-full h-[300px] w-[1000px] -rotate-12 -translate-y-1/2 -translate-x-1/4 -z-10 blur-3xl will-change-[filter]" />
+    <div class="absolute bottom-0 right-0 bg-cyan-600/20 rounded-full h-[300px] w-[1000px] rotate-12 -translate-y-1/2 translate-x-1/2 -z-10 blur-3xl will-change-[filter]" />
   </div>
 </template>
 
