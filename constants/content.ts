@@ -1,3 +1,4 @@
+import { id } from "@nuxt/ui/runtime/locale/index.js"
 import type { Experience, Hero, Projects, Service, Skills } from "./types"
 
 export const tabItems = [
@@ -12,6 +13,34 @@ export const tabItems = [
   },
   {
     label: "Version Control",
+  },
+]
+
+export const headerItems = [
+  {
+    label: 'Home',
+    icon: 'uil:home-alt',
+    id: 'home',
+  },
+  {
+    label: 'Projects',
+    icon: 'uil:folder-open',
+    id: 'projects',
+  },
+  {
+    label: 'Services',
+    icon: 'uil:wrench',
+    id: 'services',
+  },
+  {
+    label: 'Experience',
+    icon: 'uil:star',
+    id: 'experience',
+  },
+  {
+    label: 'Skills',
+    icon: 'uil:lightbulb-alt',
+    id: 'skills',
   },
 ]
 
