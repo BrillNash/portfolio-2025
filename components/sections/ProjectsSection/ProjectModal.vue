@@ -6,8 +6,9 @@
     :ui="{ 
       overlay: 'bg-slate-950/80', 
       content: 'bg-slate-950 max-w-5xl max-h-[calc(100dvh-2rem)] sm:max-h-[calc(100dvh-4rem)]', 
+      wrapper: 'overflow-auto max-h-16',
       title: 'text-white',
-      description: 'text-white border-none'
+      description: 'text-white border-none pr-8'
     }"
     class="reymond ring-gray-800 divide-gray-800"
     @close="emits('close')"
