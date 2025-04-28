@@ -21,6 +21,20 @@ export type SkillItem = {
   name: string,
   group: string[]
 }
+
+export type ProjectItem = {
+  name: string,
+  description: string,
+  file: string,
+  tech_stack: string,
+  features: Feature[],
+}
+
+export type Feature = {
+  feature_name: string,
+  description: string,
+  file: string,
+}
 // #endregion
 
 // #region Interface
@@ -47,5 +61,11 @@ export interface Skills {
   title: string,
   description: string,
   skills: SkillItem[]
+}
+
+export interface Projects {
+  title: string,
+  description: string,
+  projects: ProjectItem[]
 }
 // #endregion
