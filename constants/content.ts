@@ -1,17 +1,17 @@
-import type { Experience, Hero, Service, Skills } from "./types"
+import type { Experience, Hero, Projects, Service, Skills } from "./types"
 
 export const tabItems = [
   {
-    label: 'Frontend',
+    label: "Frontend",
   },
   {
-    label: 'Backend',
+    label: "Backend",
   },
   {
-    label: 'Database',
+    label: "Database",
   },
   {
-    label: 'Version Control',
+    label: "Version Control",
   },
 ]
 
@@ -36,30 +36,30 @@ export const hero: Hero = {
 }
 
 export const service: Service = {
-  title: 'My Quality Services',
+  title: "My Quality Services",
   description: "Expert full-stack development with a focus on performance, scalability, and clean architecture. I build robust web and backend solutions using modern frameworks and agile methodologies.",
   services: [
     {
-      title: 'Backend Development',
+      title: "Backend Development",
       description: "High-performance APIs and microservices in Node.js, Java, and Scala. Database design (PostgreSQL, MySQL) and ORM integration (Slick, Play Framework). Cloud-ready, scalable architectures with Azure DevOps and GitLab CI/CD.",
     },
     {
-      title: 'Frontend Development',
+      title: "Frontend Development",
       description: "Dynamic, responsive UIs with Vue, Nuxt, and TailwindCSS/SASS. Type-safe applications using TypeScript and modern build tools (npm/Yarn).",
     },
     {
-      title: 'Full-Stack Solutions',
+      title: "Full-Stack Solutions",
       description: "End-to-end web apps, from RESTful APIs to interactive frontends. Legacy system upgrades (.NET, C#) and performance optimizations.",
     },
     {
-      title: 'DevOps & Code Quality',
+      title: "DevOps & Code Quality",
       description: "Automated pipelines (Git, Azure DevOps) and best-practice testing. Code reviews and refactoring for maintainability.",
     },
   ]
 }
 
 export const experience: Experience = {
-  title: 'My Experience',
+  title: "My Experience",
   description: "Full-stack developer specializing in AI-powered solutions, high-performance APIs, and responsive UIs. I build scalable systems with Play Framework, .NET, Vue, and PostgreSQL, while optimizing workflows with Agile, GitLab CI/CD, and testing frameworks.",
   experiences: [
     {
@@ -173,6 +173,59 @@ export const skills: Skills = {
       icon: "devicon:gitlab",
       name: "Gitlab",
       group: ["Version Control"],
+    },
+  ]
+}
+
+export const projects: Projects = {
+  title: "My Projects",
+  description: "These represent my key development achievements from recent years. Each project showcases my full-stack capabilities - from AI-powered features to optimized database solutions and responsive interfaces. I've combined cutting-edge technologies with clean architecture principles to deliver robust, scalable applications that solve real-world problems.",
+  projects: [
+    {
+      name: "Clock Me",
+      description: "An intelligent time-tracking system featuring AI task suggestions (OpenAI integration), real-time activity monitoring, and customizable task tables. Built with Vue 3, Nuxt 3, and PostgreSQL, optimized with Play Framework for seamless performance.",
+      file: "/images/clockme-timestamps.png",
+      tech_stack: "Typescript, Nuxt 3, Scala, Play, PostgreSQL",
+      features: [
+        {
+          feature_name: "Ai task suggestion",
+          description: "Created Ai task suggestion feature that will suggest new tasks for the user or will remind the user of his tasks that are high in priority and are past due to their end date",
+          file: "/images/clockme-ai.png",
+        },
+        {
+          feature_name: "Activity tracker",
+          description: "Help develop an inhouse time/activity tracker that helps employees track their time and activities in work hours.",
+          file: "/images/clockme-timestamps.png",
+        },
+        {
+          feature_name: "Custom table for user tasks",
+          description: "Create a task table feature that can freely edit his/her tasks, set priorities, due dates and others",
+          file: "/images/clockme-tasks.png",
+        },
+      ]
+    },
+    {
+      name: "MPAT SURVEY 2025",
+      description: "MPAT Survey 2025 is an event management platform for Japanese students, built with Nuxt 3 (frontend) and Nuxt Nitro (backend API), that verifies attendance, tracks applicant-to-attendee conversion, and collects optional post-event surveys - all powered by a PostgreSQL database for reliable data tracking and analytics.",
+      file: "/images/mpat-signup.png",
+      tech_stack: "Typescript, Nuxt 3, Nuxt Nitro, PostgreSQL",
+      features: [
+        {
+          feature_name: "User signup",
+          description: "This features allows users to register for our application in preparation for their upcoming event",
+          file: "/images/mpat-signup.png",
+        },
+        {
+          feature_name: "Statistics graphs",
+          description: "This feature allows admins to keep track of the statistics of our application. This includes people who attended the event, who answered our survey and others.",
+          file: "/images/mpat-graph.png",
+        },
+        {
+          feature_name: "Applications table",
+          description: "This feature allows admin to see data from users who applied, edit their attendance records, show their qr codes.",
+          file: "/images/mpat-table.png",
+        },
+      ]
     },
   ]
 }
