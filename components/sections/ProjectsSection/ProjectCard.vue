@@ -4,7 +4,7 @@
     @click="isOpen = true"
   >
     <div class="overflow-hidden rounded-xs">
-      <img class="group-hover:scale-130 transition-all grayscale-100 group-hover:grayscale-0" :src="props.project.file" alt="image">
+      <NuxtImg class="group-hover:scale-130 transition-all grayscale-100 group-hover:grayscale-0" :src="props.project.file" alt="image"/>
     </div>
     <span class="text-xl sm:text-3xl font-semibold">{{ props.project.name }}</span>
     <p class="line-clamp-5">{{ props.project.description }}</p>
