@@ -1,6 +1,6 @@
 <template>
   <nav class="fixed left-0 top-0 z-50 w-full bg-slate-950 border-b-gray-700 p-4">
-    <ul class="hidden sm:flex items-center justify-center gap-8 py-4 text-white font-bold text-sm tracking-wide transition-colors">
+    <ul class="hidden md:flex items-center justify-center gap-8 py-4 text-white font-bold text-sm tracking-wide transition-colors">
       <li 
         v-for="item in headerItems" 
         :class="[
@@ -13,8 +13,8 @@
         <span>{{ item.label }}</span>
       </li>
     </ul>
-    <div class="flex sm:hidden text-white justify-between items-center">
-      <h2>Nash</h2>
+    <div class="flex md:hidden text-white justify-between items-center">
+      <h2 class="font-bold text-lg">Nash.io</h2>
       <UButton
         class="text-white"
         size="xl"
@@ -57,6 +57,7 @@ const observers: IntersectionObserver[] = [];
 const isDrawerOpen = ref(false)
 
 const scrollToSection = (id: string) => {
+  isDrawerOpen.value = false
   const el = document.getElementById(id);
   if (el) {
     intersectionObserver(el, id)
