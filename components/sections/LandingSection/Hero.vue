@@ -20,7 +20,7 @@
       </div>
     </div>
     <div class="flex sm:hidden lg:flex items-center justify-center">
-      <img src="/public/images/profile_1.png" alt="Profile" class="w-[250px] sm:w-[400px] aspect-auto">
+      <NuxtImg src="/images/profile_1.png" alt="Profile" class="w-[250px] sm:w-[400px] aspect-auto"/>
     </div>
 
     <!-- DECORATIVE -->

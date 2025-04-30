@@ -20,10 +20,10 @@
             v-for="feature in props.features" :key="feature.feature_name"
             class="w-72 space-y-2"
           >
-            <img 
+            <NuxtImg 
               :src="feature.file" 
               alt="image"
-            >
+            />
             <span>{{ feature.feature_name }}</span>
             <p>{{ feature.description }}</p>
           </li>
