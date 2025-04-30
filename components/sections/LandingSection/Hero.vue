@@ -1,5 +1,5 @@
 <template>
-  <div class="flex gap-0 sm:gap-8 md:gap-16 p-8 sm:p-20 flex-col sm:flex-row flex-1 min-h-screen relative">
+  <div class="flex gap-0 sm:gap-8 md:gap-16 p-5 sm:p-20 flex-col sm:flex-row flex-1 min-h-screen relative">
     <div class="flex flex-col flex-1 gap-8 max-w-3xl justify-center text-white">
       <h1 class="space-y-4">
         <p class="font-bold text-2xl sm:text-4xl">{{ props.name }}</p>

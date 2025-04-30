@@ -1,5 +1,5 @@
 <template>
-  <section class="p-8 text-white min-h-screen space-y-8 relative">
+  <section class="p-5 sm:p-8 text-white min-h-screen space-y-8 relative">
     <LazySectionTitle :title="service.title" :description="service.description"/>
     <LazyServiceList :services="service.services"/>
 
