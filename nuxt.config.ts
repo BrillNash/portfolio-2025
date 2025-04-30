@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/ui', '@nuxt/fonts'],
+  modules: ['@nuxt/ui', '@nuxt/fonts', '@nuxt/image'],
   app: {
     head: {
       title: `Brill's Portfolio`,
