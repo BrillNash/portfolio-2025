@@ -3,5 +3,6 @@
 
 
 body {
-  @apply bg-slate-950
+  @apply bg-slate-950;
+  font-family: 'Work Sans', 'Inter', sans-serif;
 }
