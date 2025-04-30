@@ -76,7 +76,7 @@ const intersectionObserver = (el: HTMLElement, id: string) => {
     {
       root: null, // viewport
       rootMargin: '0px',
-      threshold: 0.1, // 50% of the section must be visible
+      threshold: 0.1, // 10% of the section must be visible
     }
   );
   observer.observe(el);
