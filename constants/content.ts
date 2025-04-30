@@ -110,13 +110,13 @@ export const experience: Experience = {
   description: "Full-stack developer specializing in AI-powered solutions, high-performance APIs, and responsive UIs. I build scalable systems with Play Framework, .NET, Vue, and PostgreSQL, while optimizing workflows with Agile, GitLab CI/CD, and testing frameworks.",
   experiences: [
     {
-      date: "2024 - Current",
+      date: "February, 2024 - Present • (1 yrs 3 mos)",
       role: "FULL STACK WEB DEVELOPER",
       company: "Vauldex Technologies",
       job_description: "Developed an AI task suggestion system using OpenAI, enhancing productivity. Built scalable APIs (Play Framework, Slick) and dynamic frontends (Vue 3, Nuxt 3). Ensured reliability with Vitest and optimized PostgreSQL databases."
     },
     {
-      date: "2023",
+      date: "April, 2022 - November, 2022 • (8 mos)",
       role: "FULL STACK WEB DEVELOPER",
       company: "Skandenavisk Logistics",
       job_description: "Boosted API performance by refining SQL queries and optimizing .NET backend. Delivered responsive UIs with Vue 2 and streamlined deployments via Azure DevOps."
