@@ -1,6 +1,6 @@
 <template>
   <section class="relative flex flex-col overflow-hidden">
-    <LazyHero :name="hero.title_1" :role="hero.title_2" :description="hero.description"/>
+    <LazyHero :name="hero.title_1" :role="hero.title_2" :description="hero.description" :links="hero.links"/>
     <LazyExperienceBar :profile-experience-list="hero.profile_experiece_list" />
   </section>
 </template>

@@ -8,27 +8,13 @@
       <p>{{ props.description }}</p>
       <div class="flex gap-2">
         <UButton
+          v-for="link in links"
+          :key="link.link"
           class="rounded-full bg-white text-violet-800 border border-violet-800 p-3 text-xl"
           size="md"
-          icon="uil:linkedin"
+          :icon="link.icon"
           color="neutral"
-          to="https://www.linkedin.com/in/brill-nash-piner-a91947235/" 
-          target="_blank"
-        />
-        <UButton
-          class="rounded-full bg-white text-violet-800 border border-violet-800 p-3 text-xl"
-          size="md"
-          icon="uil:facebook"
-          color="neutral"
-          to="https://www.facebook.com/itsmeNash/"
-          target="_blank"
-        />
-        <UButton
-          class="rounded-full bg-white text-violet-800 border border-violet-800 p-3 text-xl"
-          size="md"
-          icon="uil:instagram"
-          color="neutral"
-          to="https://www.instagram.com/nashthoughts23/"
+          :to="link.link" 
           target="_blank"
         />
       </div>
@@ -44,10 +30,13 @@
 </template>
 
 <script lang="ts" setup>
+import type { LinkItem } from '~/constants/types';
+
 type Props = {
   name: string,
   role: string,
   description: string
+  links: LinkItem[]
 }
 
 const props = defineProps<Props>()

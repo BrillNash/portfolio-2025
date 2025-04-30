@@ -48,6 +48,24 @@ export const hero: Hero = {
   title_1: "I am Brill Nash",
   title_2: "Software Developer",
   description: "Full-stack developer specializing in Node.js, Java, and Scala. Focused on high-quality apps, faster delivery, and clean code. Agile team player with a track record of optimizing performance.",
+  links: [
+    {
+      icon: "uil:linkedin",
+      link: "https://www.linkedin.com/in/brill-nash-piner-a91947235/",
+    },
+    {
+      icon: "uil:facebook",
+      link: "https://www.facebook.com/itsmeNash/",
+    },
+    {
+      icon: "uil:instagram",
+      link: "https://www.instagram.com/nashthoughts23/",
+    },
+    {
+      icon: "uil:discord",
+      link: "https://www.discordapp.com/users/nashqt_",
+    },
+  ],
   profile_experiece_list: [
     {
       num: "2",
