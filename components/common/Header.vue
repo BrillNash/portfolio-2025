@@ -1,15 +1,15 @@
 <template>
-  <nav class="hidden sm:block sticky top-0 z-50 bg-slate-950 border-b-gray-700">
-    <ul class="flex items-center justify-center gap-8 py-4 text-white font-semibold text-lg tracking-wide transition-colors">
+  <nav class="fixed left-0 top-0 z-50 w-full bg-slate-950 border-b-gray-700 p-4">
+    <ul class="flex items-center justify-center gap-8 py-4 text-white font-bold text-sm tracking-wide transition-colors">
       <li 
         v-for="item in headerItems" 
         :class="[
-          'relative cursor-pointer space-x-1',
-          { 'border-b text-violet-400': activeSection === item.id }
+          'relative cursor-pointer space-x-1 py-2 px-4 flex items-center justify-center',
+          { 'bg-linear-to-r from-violet-500 to-cyan-600 shadow-violet-500/30 shadow-[0_0_10px_10px]': activeSection === item.id }
         ]" 
         @click="scrollToSection(item.id)"
       >
-        <UIcon :name="item.icon" class="size-5 translate-y-1/8" />
+        <UIcon :name="item.icon" class="size-5" />
         <span>{{ item.label }}</span>
       </li>
     </ul>
