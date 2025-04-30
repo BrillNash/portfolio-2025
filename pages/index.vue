@@ -1,5 +1,5 @@
 <template>
-  <div class="relative">
+  <div>
     <Header />
     <LandingSection id="home" ref="home"/>
     <LazyProjectsSection id="projects" ref="projects"/>
