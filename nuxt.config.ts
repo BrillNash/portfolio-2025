@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/ui'],
+  modules: ['@nuxt/ui', '@nuxt/fonts'],
   app: {
     head: {
       title: `Brill's Portfolio`,
@@ -19,6 +19,7 @@ export default defineNuxtConfig({
   components: [{
     path: "~/components",
     pathPrefix: false
-  }]
+  }],
+  fonts: []
 
 })
