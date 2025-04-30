@@ -16,6 +16,11 @@ export type ExperienceItem = {
   job_description: string
 }
 
+export type LinkItem = {
+  icon: string,
+  link: string
+}
+
 export type SkillItem = {
   icon: string,
   name: string,
@@ -42,6 +47,7 @@ export interface Hero {
   title_1: string,
   title_2: string,
   description: string,
+  links: LinkItem[],
   profile_experiece_list: ProfileExperienceItem[],
 }
 
