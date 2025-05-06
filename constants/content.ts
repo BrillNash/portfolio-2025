@@ -1,4 +1,3 @@
-import { id } from "@nuxt/ui/runtime/locale/index.js"
 import type { Experience, Hero, Projects, Service, Skills } from "./types"
 
 export const tabItems = [
