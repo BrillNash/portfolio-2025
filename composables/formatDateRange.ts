@@ -5,6 +5,7 @@ export const formatDateRange = (startEpochMs: number, endEpochMs: number): strin
 
   const startMonth = startDate.toLocaleString('default', { month: 'long' });
   const startYear = startDate.getUTCFullYear();
+  console.log('startYear: ', startYear);
   const endMonth = endDate.toLocaleString('default', { month: 'long' });
   const endYear = endDate.getUTCFullYear();
 
