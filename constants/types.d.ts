@@ -11,6 +11,8 @@ export type ProfileExperienceItem = {
 
 export type ExperienceItem = {
   date: string,
+  epochStart: number,
+  epochEnd: number,
   role: string,
   company: string,
   job_description: string
