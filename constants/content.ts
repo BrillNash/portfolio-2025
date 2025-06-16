@@ -215,8 +215,18 @@ export const skills: Skills = {
       group: ["Backend"],
     },
     {
+      icon: "devicon:express",
+      name: "Express",
+      group: ["Backend"],
+    },
+    {
       icon: "devicon:dotnetcore",
       name: ".NET",
+      group: ["Backend"],
+    },
+    {
+      icon: "devicon:cloudrun",
+      name: "Google Cloud Run",
       group: ["Backend"],
     },
     {
@@ -227,6 +237,21 @@ export const skills: Skills = {
     {
       icon: "devicon:postgresql-wordmark",
       name: "POSTGRESQL",
+      group: ["Database"],
+    },
+    {
+      icon: "material-icon-theme:supabase",
+      name: "Supabase",
+      group: ["Database"],
+    },
+    {
+      icon: "material-icon-theme:firebase",
+      name: "Firebase",
+      group: ["Database"],
+    },
+    {
+      icon: "devicon:googlecloud",
+      name: "Cloud Database",
       group: ["Database"],
     },
     {
