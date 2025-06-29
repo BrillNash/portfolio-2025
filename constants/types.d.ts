@@ -50,7 +50,7 @@ export interface Hero {
   title_2: string,
   description: string,
   links: LinkItem[],
-  profile_experiece_list: ProfileExperienceItem[],
+  profile_experience_list: ProfileExperienceItem[],
 }
 
 export interface Service {
