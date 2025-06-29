@@ -65,7 +65,7 @@ export const hero: Hero = {
       link: "https://www.discordapp.com/users/nashqt_",
     },
   ],
-  profile_experiece_list: [
+  profile_experience_list: [
     {
       num: "3",
       description: "Years of experience"
