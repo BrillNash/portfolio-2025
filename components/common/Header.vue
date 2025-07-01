@@ -1,5 +1,5 @@
 <template>
-  <nav class="fixed left-0 top-0 z-50 w-full bg-slate-950 border-b-gray-700 p-4">
+  <header class="fixed left-0 top-0 z-50 w-full bg-slate-950 border-b-gray-700 p-4">
     <ul class="hidden md:flex items-center justify-center gap-8 py-4 text-white font-bold text-sm tracking-wide transition-colors">
       <li 
         v-for="item in headerItems" 
@@ -23,7 +23,7 @@
         @click="isDrawerOpen = !isDrawerOpen"
       />
     </div>
-  </nav>
+  </header>
   <UDrawer 
     direction="left" 
     v-model:open="isDrawerOpen" 
