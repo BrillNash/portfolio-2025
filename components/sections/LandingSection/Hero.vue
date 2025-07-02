@@ -23,7 +23,7 @@
       </nav>
     </section>
     <div class="flex sm:hidden lg:flex items-center justify-center">
-      <NuxtImg src="/images/profile_1.png" alt="Brill Nash profile photo" class="w-[250px] sm:w-[400px] rounded-lg aspect-auto"/>
+      <NuxtImg src="/images/profile_1.png" alt="Brill Nash Piner's profile photo" class="w-[250px] sm:w-[400px] rounded-lg aspect-auto"/>
     </div>
 
     <!-- DECORATIVE -->

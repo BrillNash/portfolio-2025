@@ -1,6 +1,6 @@
 <template>
   <section aria-labelledby="hero-section" class="relative flex flex-col overflow-hidden">
-    <h1 id="hero-section" class="sr-only">Portfolio Introduction</h1>
+    <h1 id="hero-section" class="sr-only">Brill Nash Piner's Portfolio Introduction</h1>
 
     <LazyHero :name="hero.title_1" :role="hero.title_2" :description="hero.description" :links="hero.links"/>
     <LazyExperienceBar :profile-experience-list="hero.profile_experience_list" />
