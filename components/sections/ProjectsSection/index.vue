@@ -9,3 +9,24 @@
 
 <script lang="ts" setup>
 const { projects } = await import("~/constants/content.js")
+
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": projects.title,
+        "description": projects.description,
+        "itemListElement": projects.projects.map((project, index) => ({
+          "@type": "ListItem",
+          "position": index + 1,
+          "name": project.name,
+          "url": `https://portfolio-brillnash.vercel.app`
+        }))
+      })
+    }
+  ]
+})
+</script>
