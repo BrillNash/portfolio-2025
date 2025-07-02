@@ -45,59 +45,7 @@ type Props = {
 const props = defineProps<Props>()
 
 useHead({
-  title: 'Brill Nash | Software Engineer',
-  meta: [
-    { name: 'description', content: props.description },
-    {
-      name: 'keywords',
-      content: [
-        'Brill Nash',
-        'Software Engineer',
-        'Full Stack Developer',
-        'Frontend Developer',
-        'Vue.js Developer',
-        'Nuxt Developer',
-        'TypeScript Developer',
-        'JavaScript Developer',
-        'Web Developer Philippines',
-        'Cebu Software Engineer',
-        'Firebase Developer',
-        'Node.js Developer',
-        'Tailwind CSS',
-        'Google Cloud Developer',
-        'SaaS Developer',
-        'Responsive Web Design',
-        'Progressive Web Apps',
-        'Frontend Performance',
-        'Tech Portfolio',
-        'Freelance Developer',
-        'Open Source Contributor',
-        'API Integration',
-        'Agile Software Developer',
-        'Modern JavaScript',
-        'Nuxt 3 Portfolio',
-        'Fullstack Vue Developer',
-        'Software Developer Portfolio'
-      ].join(', ')
-    },
-    { name: 'author', content: props.name },
-
-    // Open Graph (for social media)
-    { property: 'og:title', content: `${props.name} | ${props.role}` },
-    { property: 'og:description', content: props.description },
-    { property: 'og:image', content: '/images/profile_1.png' },
-    { property: 'og:type', content: 'website' },
-    { property: 'og:url', content: 'https://portfolio-brillnash.vercel.app/' },
-
-    // Twitter Card
-    { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: `${props.name} | ${props.role}` },
-    { name: 'twitter:description', content: props.description },
-    { name: 'twitter:image', content: '/images/profile_1.png' },
-  ],
-  link: [
-    { rel: 'canonical', href: 'https://portfolio-brillnash.vercel.app/' },
-  ],
+  title: 'Brill Nash Piner | Software Engineer',
   script: [
     {
       type: 'application/ld+json',
