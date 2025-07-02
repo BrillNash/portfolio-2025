@@ -1,12 +1,12 @@
 <template>
   <main role="main" class="flex gap-0 sm:gap-8 md:gap-16 lg:gap-32 xl:gap-80 2xl:gap-100 p-5 sm:p-20 flex-col sm:flex-row flex-1 min-h-screen relative">
     <section aria-labelledby="about" class="flex flex-col flex-1 gap-8 max-w-3xl justify-center text-white">
-      <header class="flex flex-col gap-4 text-white" role="banner">
-        <h1 class="text-2xl sm:text-4xl font-bold">{{ props.name }}</h1>
-        <h2 class="text-4xl sm:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-cyan-600">
+      <h1 class="flex flex-col gap-4 text-white">
+        <span class="text-2xl sm:text-4xl font-bold">{{ props.name }}</span>
+        <span class="text-4xl sm:text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-cyan-600">
           {{ props.role }}
-        </h2>
-      </header>
+        </span>
+      </h1>
 
       <p id="about" class="text-white">{{ props.description }}</p>
       <nav aria-label="social links" class="flex gap-2">
@@ -23,7 +23,7 @@
       </nav>
     </section>
     <div class="flex sm:hidden lg:flex items-center justify-center">
-      <NuxtImg src="/images/profile_1.png" alt="Brill Nash profile photo" class="w-[250px] sm:w-[400px] aspect-auto"/>
+      <NuxtImg src="/images/profile_1.png" alt="Brill Nash Piner's profile photo" class="w-[250px] sm:w-[400px] rounded-lg aspect-auto"/>
     </div>
 
     <!-- DECORATIVE -->
@@ -45,28 +45,7 @@ type Props = {
 const props = defineProps<Props>()
 
 useHead({
-  title: 'Brill Nash | Software Engineer',
-  meta: [
-    { name: 'description', content: props.description },
-    { name: 'keywords', content: 'Software Engineer, Web Developer, Vue.js, Nuxt, Portfolio' },
-    { name: 'author', content: props.name },
-    
-    // Open Graph (for social media)
-    { property: 'og:title', content: `${props.name} | ${props.role}` },
-    { property: 'og:description', content: props.description },
-    { property: 'og:image', content: '/images/profile_1.png' },
-    { property: 'og:type', content: 'website' },
-    { property: 'og:url', content: 'https://portfolio-brillnash.vercel.app/' },
-
-    // Twitter Card
-    { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: `${props.name} | ${props.role}` },
-    { name: 'twitter:description', content: props.description },
-    { name: 'twitter:image', content: '/images/profile_1.png' },
-  ],
-  link: [
-    { rel: 'canonical', href: 'https://portfolio-brillnash.vercel.app/' },
-  ],
+  title: 'Brill Nash Piner | Software Engineer',
   script: [
     {
       type: 'application/ld+json',
@@ -83,5 +62,4 @@ useHead({
     }
   ]
 })
-
 </script>
