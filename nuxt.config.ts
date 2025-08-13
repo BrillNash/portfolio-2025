@@ -6,7 +6,7 @@ export default defineNuxtConfig({
       title: `Brill's Portfolio`,
       meta: [
         { name: 'description', content: 'This is my amazing portfolio using Nuxt 3 framework.' },
-        { property: 'og:image', content: '/images/portfolio-brillnash-vercel.png' },
+        { property: 'og:image', content: '/images/portfolio-brillnash-vercel.webp' },
         { property: 'og:url', content: 'https://portfolio-brillnash.vercel.app' },
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' }
@@ -15,7 +15,7 @@ export default defineNuxtConfig({
         {
           rel: 'icon',
           type: 'image/x-icon',
-          href: '/atom.png'
+          href: '/images/profile.webp'
         }
       ]
     },

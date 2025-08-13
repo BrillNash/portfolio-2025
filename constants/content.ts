@@ -279,46 +279,46 @@ export const projects: Projects = {
     {
       name: "Clock Me",
       description: "An intelligent time-tracking system featuring AI task suggestions (OpenAI integration), real-time activity monitoring, and customizable task tables. Built with Vue 3, Nuxt 3, and PostgreSQL, optimized with Play Framework for seamless performance.",
-      file: "/images/clockme-timestamps.png",
+      file: "/images/clockme-timestamps.webp",
       tech_stack: "Typescript, Nuxt 3, Scala, Play, PostgreSQL",
       features: [
         {
           feature_name: "Ai task suggestion",
           description: "Created Ai task suggestion feature that will suggest new tasks for the user or will remind the user of his tasks that are high in priority and are past due to their end date",
-          file: "/images/clockme-ai.png",
+          file: "/images/clockme-ai.webp",
         },
         {
           feature_name: "Activity tracker",
           description: "Help develop an inhouse time/activity tracker that helps employees track their time and activities in work hours.",
-          file: "/images/clockme-timestamps.png",
+          file: "/images/clockme-timestamps.webp",
         },
         {
           feature_name: "Custom table for user tasks",
           description: "Create a task table feature that can freely edit his/her tasks, set priorities, due dates and others",
-          file: "/images/clockme-tasks.png",
+          file: "/images/clockme-tasks.webp",
         },
       ]
     },
     {
       name: "MPAT SURVEY 2025",
       description: "MPAT Survey 2025 is an event management platform for Japanese students, built with Nuxt 3 (frontend) and Nuxt Nitro (backend API), that verifies attendance, tracks applicant-to-attendee conversion, and collects optional post-event surveys - all powered by a PostgreSQL database for reliable data tracking and analytics.",
-      file: "/images/mpat-signup.png",
+      file: "/images/mpat-signup.webp",
       tech_stack: "Typescript, Nuxt 3, Nuxt Nitro, PostgreSQL",
       features: [
         {
           feature_name: "User signup",
           description: "This features allows users to register for our application in preparation for their upcoming event",
-          file: "/images/mpat-signup.png",
+          file: "/images/mpat-signup.webp",
         },
         {
           feature_name: "Statistics graphs",
           description: "This feature allows admins to keep track of the statistics of our application. This includes people who attended the event, who answered our survey and others.",
-          file: "/images/mpat-graph.png",
+          file: "/images/mpat-graph.webp",
         },
         {
           feature_name: "Applications table",
           description: "This feature allows admin to see data from users who applied, edit their attendance records, show their qr codes.",
-          file: "/images/mpat-table.png",
+          file: "/images/mpat-table.webp",
         },
       ]
     },

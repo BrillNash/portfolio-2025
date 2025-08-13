@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="max-w-content-maxw mx-auto">
     <Header />
     <LandingSection id="home" ref="home"/>
     <LazyProjectsSection id="projects" ref="projects"/>
