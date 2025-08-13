@@ -1,5 +1,5 @@
 <template>
-  <section aria-labelledby="hero-section" class="relative flex flex-col overflow-hidden">
+  <section aria-labelledby="hero-section" class="relative flex flex-col overflow-y-hidden">
     <h1 id="hero-section" class="sr-only">Brill Nash Piner's Portfolio Introduction</h1>
 
     <LazyHero :name="hero.title_1" :role="hero.title_2" :description="hero.description" :links="hero.links"/>

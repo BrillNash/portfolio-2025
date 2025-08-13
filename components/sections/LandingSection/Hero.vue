@@ -1,5 +1,5 @@
 <template>
-  <main role="main" class="flex gap-0 sm:gap-8 md:gap-16 lg:gap-32 xl:gap-80 2xl:gap-100 p-5 sm:p-20 flex-col sm:flex-row flex-1 min-h-screen relative">
+  <main role="main" class="flex gap-0 sm:gap-8 md:gap-16 lg:gap-32 xl:gap-50 p-5 sm:p-20 flex-col sm:flex-row flex-1 min-h-screen relative">
     <section aria-labelledby="about" class="flex flex-col flex-1 gap-8 max-w-3xl justify-center text-white">
       <h1 class="flex flex-col gap-4 text-white">
         <span class="text-2xl sm:text-4xl font-bold">{{ props.name }}</span>
@@ -23,7 +23,7 @@
       </nav>
     </section>
     <div class="flex sm:hidden lg:flex items-center justify-center">
-      <NuxtImg src="/images/profile_1.png" alt="Brill Nash Piner's profile photo" class="w-[250px] sm:w-[400px] rounded-lg aspect-auto"/>
+      <NuxtImg src="/images/profile.webp" alt="Brill Nash Piner's profile photo" class="w-[250px] sm:w-[500px] rounded-lg aspect-auto"/>
     </div>
 
     <!-- DECORATIVE -->
@@ -55,7 +55,7 @@ useHead({
         "name": props.name,
         "jobTitle": props.role,
         "description": props.description,
-        "image": "https://portfolio-brillnash.vercel.app/images/profile_1.png",
+        "image": "https://portfolio-brillnash.vercel.app/images/profile.webp",
         "url": "https://portfolio-brillnash.vercel.app/",
         "sameAs": props.links.map(link => link.link)
       })

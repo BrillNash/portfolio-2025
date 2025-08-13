@@ -81,7 +81,7 @@ useHead({
     { property: 'og:description', content: 'Explore the work of Brill Nash, a Cebu-based software engineer crafting scalable web apps.' },
     { property: 'og:type', content: 'website' },
     { property: 'og:url', content: 'https://portfolio-brillnash.vercel.app/' },
-    { property: 'og:image', content: '/images/profile_1.png' },
+    { property: 'og:image', content: '/images/profile.webp' },
     { property: 'og:image:alt', content: 'Brill Nash Piner - Software Developer' },
     { property: 'og:site_name', content: 'Brill Nash Piner Portfolio' },
     { name: 'twitter:site', content: '@brillnash' },
@@ -92,7 +92,7 @@ useHead({
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: 'Brill Nash Piner – Software Developer' },
     { name: 'twitter:description', content: 'Developer portfolio by Brill Nash Piner, Vue.js & Node.js expert based in Cebu.' },
-    { name: 'twitter:image', content: '/images/profile_1.png' }
+    { name: 'twitter:image', content: '/images/profile.webp' }
   ],
   link: [
     { rel: 'canonical', href: 'https://portfolio-brillnash.vercel.app/' }
