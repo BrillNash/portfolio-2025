@@ -2,7 +2,8 @@
   <UModal
     v-model:open="isOpen"
     :title="props.name"
-    :description="props.description"
+    :aria-describedby="props.description"
+    :description="breakpoints.greaterOrEqual('sm').value ? props.description : ''"
     :ui="{ 
       overlay: 'bg-slate-950/80', 
       content: 'bg-slate-950 max-w-5xl max-h-[calc(100dvh-2rem)] sm:max-h-[calc(100dvh-4rem)]', 
@@ -10,11 +11,12 @@
       title: 'text-white',
       description: 'text-white border-none pr-8'
     }"
-    class="reymond ring-gray-800 divide-gray-800"
+    class="ring-gray-800 divide-gray-800"
     @close="emits('close')"
   >
     <template #body>
       <div class="space-y-8 text-white">
+        <p class="visible sm:hidden">{{ props.description }}</p>
         <ul class="flex flex-wrap justify-center items-start gap-4">
           <li 
             v-for="feature in props.features" :key="feature.feature_name"
@@ -35,6 +37,7 @@
 </template>
 
 <script lang="ts" setup>
+import { useBreakpoints, breakpointsTailwind } from '@vueuse/core'
 import type { Feature } from '~/constants/types'
 
 type Props = {
@@ -48,5 +51,6 @@ const emits = defineEmits<{
   close: []
 }>()
 const props = defineProps<Props>()
+const breakpoints = useBreakpoints(breakpointsTailwind)
 const isOpen = defineModel<boolean>('is-open')
 </script>
