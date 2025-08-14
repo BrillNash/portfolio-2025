@@ -322,5 +322,28 @@ export const projects: Projects = {
         },
       ]
     },
+    {
+      name: "Vauldex Technologies Website",
+      description: "Vauldex Technologies Website is the official online presence of Vauldex Tech, built with Nuxt 3 and optimized for SEO, responsive layout, smooth animations, and high website performance. Designed to engage both prospective employees and potential clients, the platform showcases Vauldex’s brand, expertise, and vision while providing an intuitive and visually compelling user experience.",
+      file: "/images/vauldex_1_jap.webp",
+      tech_stack: "Typescript, Nuxt 3, TailwindCSS",
+      features: [
+        {
+          feature_name: "Vauldex Landing page",
+          description: "A welcoming introduction to Vauldex, designed to highlight upcoming events and provide a quick, easy way for visitors to register.",
+          file: "/images/vauldex_1_jap.webp",
+        },
+        {
+          feature_name: "Vauldex Services",
+          description: "An overview of the tools and capabilities Vauldex offers, showcasing how we help organizations track engagement, manage events, and analyze participation data.",
+          file: "/images/vauldex_3_jap.webp",
+        },
+        {
+          feature_name: "Vauldex News",
+          description: "A central hub for the latest updates, announcements, and event information, keeping both admins and participants informed in real time.",
+          file: "/images/vauldex_4_jap.webp",
+        },
+      ]
+    },
   ]
 }
