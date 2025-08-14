@@ -1,2 +1,21 @@
-User-Agent: *
-Disallow:
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_nuxt/
+Disallow: /admin/
+Disallow: /private/
+
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /_nuxt/
+Disallow: /admin/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+Disallow: /_nuxt/
+Disallow: /admin/
+
+Host: kroby-portfolio.vercel.app
+Sitemap: https://kroby-portfolio.vercel.app/sitemap.xml
