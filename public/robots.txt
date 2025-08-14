@@ -17,5 +17,5 @@ Disallow: /api/
 Disallow: /_nuxt/
 Disallow: /admin/
 
-Host: kroby-portfolio.vercel.app
-Sitemap: https://kroby-portfolio.vercel.app/sitemap.xml
+Host: portfolio-brillnash.vercel.app
+Sitemap: https://portfolio-brillnash.vercel.app/sitemap.xml
