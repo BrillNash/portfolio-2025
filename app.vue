@@ -1,6 +1,6 @@
 <template>
   <UApp>
-    <NuxtPage class="overflow-x-hidden" />
+    <NuxtPage />
   </UApp>
 </template>
 

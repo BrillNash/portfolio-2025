@@ -23,7 +23,13 @@
       </nav>
     </section>
     <div class="flex sm:hidden lg:flex items-center justify-center">
-      <NuxtImg src="/images/profile.webp" alt="Brill Nash Piner's profile photo" class="w-[250px] sm:w-[500px] rounded-lg aspect-auto"/>
+      <NuxtImg 
+        src="/images/profile.webp" 
+        alt="Brill Nash Piner's profile photo"
+        format="webp"
+        fetchpriority="high"
+        class="w-[250px] sm:w-[500px] rounded-lg aspect-auto"
+      />
     </div>
 
     <!-- DECORATIVE -->

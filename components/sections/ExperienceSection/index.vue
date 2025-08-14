@@ -1,5 +1,5 @@
 <template>
-  <section class="p-5 sm:p-8 w-full text-white min-h-screen space-y-8 relative">
+  <section aria-labelledby="experience-section"  class="p-5 sm:p-8 w-full text-white min-h-screen space-y-8 relative">
     <LazySectionTitle :title="experience.title" :description="experience.description" />
     <LazyExperienceList :experiences="experience.experiences"/>
 

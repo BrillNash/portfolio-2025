@@ -1,6 +1,6 @@
 <template>
   <section aria-labelledby="experience" class="w-full">
-    <h2 id="experience" class="sr-only">Brill Nash Piner's Experience Statistics</h2>
+    <h2 id="experience-statistics" class="sr-only">Brill Nash Piner's Experience Statistics</h2>
     <ul class="flex flex-col sm:flex-row gap-72 mt-32 sm:mt-0 sm:gap-4 p-5 sm:p-8 pb-12 w-full items-center justify-center text-white">
       <li 
         v-for="item in props.profileExperienceList" 

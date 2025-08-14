@@ -22,7 +22,7 @@
           >
             <NuxtImg 
               :src="feature.file" 
-              alt="image"
+              :alt="feature.feature_name"
             />
             <span>{{ feature.feature_name }}</span>
             <p>{{ feature.description }}</p>

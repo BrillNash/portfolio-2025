@@ -60,6 +60,9 @@ const scrollToSection = (id: string) => {
   isDrawerOpen.value = false
   const el = document.getElementById(id);
   if (el) {
+    // Update the URL without reloading the page
+    history.pushState(null, '', `#${id}`);
+
     intersectionObserver(el, id)
     el.scrollIntoView({ behavior: 'smooth' });
   }
