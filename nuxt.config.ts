@@ -15,7 +15,7 @@ export default defineNuxtConfig({
         {
           rel: 'icon',
           type: 'image/x-icon',
-          href: '/images/profile.webp'
+          href: '/images/profile_favicon.webp'
         }
       ]
     },

@@ -61,7 +61,7 @@ useHead({
         "name": props.name,
         "jobTitle": props.role,
         "description": props.description,
-        "image": "https://portfolio-brillnash.vercel.app/images/profile.webp",
+        "image": "https://portfolio-brillnash.vercel.app/images/profile_favicon.webp",
         "url": "https://portfolio-brillnash.vercel.app/",
         "sameAs": props.links.map(link => link.link)
       })
