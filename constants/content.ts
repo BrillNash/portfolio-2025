@@ -300,7 +300,7 @@ export const projects: Projects = {
       ]
     },
     {
-      name: "MPAT SURVEY 2025",
+      name: "MPAT Survey 2025",
       description: "MPAT Survey 2025 is an event management platform for Japanese students, built with Nuxt 3 (frontend) and Nuxt Nitro (backend API), that verifies attendance, tracks applicant-to-attendee conversion, and collects optional post-event surveys - all powered by a PostgreSQL database for reliable data tracking and analytics.",
       file: "/images/mpat-signup.webp",
       tech_stack: "Typescript, Nuxt 3, Nuxt Nitro, PostgreSQL",
