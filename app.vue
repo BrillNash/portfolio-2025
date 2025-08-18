@@ -77,6 +77,8 @@ useHead({
     { name: 'description', content: 'Portfolio of Brill Nash Piner, a software engineer from Cebu specializing in full-stack web development using Vue.js, Node.js, and cloud technologies.' },
     { name: 'author', content: 'Brill Nash Piner' },
     { name: 'robots', content: 'index, follow' },
+
+    // Open Graph
     { property: 'og:title', content: 'Brill Nash Piner – Software Developer' },
     { property: 'og:description', content: 'Explore the work of Brill Nash, a Cebu-based software engineer crafting scalable web apps.' },
     { property: 'og:type', content: 'website' },
@@ -84,18 +86,21 @@ useHead({
     { property: 'og:image', content: '/images/profile_favicon.webp' },
     { property: 'og:image:alt', content: 'Brill Nash Piner - Software Developer' },
     { property: 'og:site_name', content: 'Brill Nash Piner Portfolio' },
-    { name: 'twitter:site', content: '@brillnash' },
-    { name: 'twitter:creator', content: '@brillnash' },
-    { name: 'twitter:domain', content: 'brillnash.dev' },
+
+    // Twitter
     { name: 'twitter:url', content: 'https://portfolio-brillnash.vercel.app/' },
+    { name: 'twitter:image', content: '/images/portfolio_preview.webp' },
     { name: 'twitter:image:alt', content: 'Brill Nash Piner - Software Developer' },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: 'Brill Nash Piner – Software Developer' },
     { name: 'twitter:description', content: 'Developer portfolio by Brill Nash Piner, Vue.js & Node.js expert based in Cebu.' },
-    { name: 'twitter:image', content: '/images/profile_favicon.webp' }
   ],
   link: [
-    { rel: 'canonical', href: 'https://portfolio-brillnash.vercel.app/' }
+    { rel: 'canonical', href: 'https://portfolio-brillnash.vercel.app/' },
+    { rel: 'icon', type: 'image/x-icon', href: 'https://portfolio-brillnash.vercel.app/favicon.ico' },
+    { rel: 'apple-touch-icon', sizes: '180x180', href: 'https://portfolio-brillnash.vercel.app/apple-touch-icon.png' },
+    { rel: 'icon', type: 'image/png', sizes: '32x32', href: 'https://portfolio-brillnash.vercel.app/favicon-32x32.png' },
+    { rel: 'icon', type: 'image/png', sizes: '16x16', href: 'https://portfolio-brillnash.vercel.app/favicon-16x16.png' }
   ]
 });
 </script>
