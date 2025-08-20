@@ -22,5 +22,7 @@ export const formatDateRange = (startEpochMs: number, endEpochMs: number): strin
     }
   }
 
-  return `${startMonth} ${startYear} – ${endMonth} ${endYear} (${duration.value})`;
+  return `${endMonth} ${endYear}` === `${startMonth} ${startYear}` ?
+    `${startMonth} ${startYear} – Present (${duration.value})` : 
+    `${startMonth} ${startYear} – ${endMonth} ${endYear} (${duration.value})`
 }
