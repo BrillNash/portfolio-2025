@@ -71,7 +71,7 @@ export const hero: Hero = {
       description: "Years of experience"
     },
     {
-      num: "9",
+      num: "10+",
       description: "Projects"
     },
     {
@@ -109,9 +109,17 @@ export const experience: Experience = {
   description: "Full-stack developer specializing in AI-powered solutions, high-performance APIs, and responsive UIs. I build scalable systems with Play Framework, .NET, Vue, and PostgreSQL, while optimizing workflows with Agile, GitLab CI/CD, and testing frameworks.",
   experiences: [
     {
-      date: "February, 2024 - Present",
-      epochStart: 1706745600000,
+      date: "August, 2025 - Present",
+      epochStart: 1756166400000,
       epochEnd: 0,
+      role: "PLATFORM DELIVERY CONSULTANT",
+      company: "Benifex",
+      job_description: "Enhanced API performance through optimized SQL queries and .NET backend improvements. Delivered responsive and user-friendly interfaces with Vue 2, while streamlining deployment pipelines using Azure DevOps to ensure efficient and reliable delivery."
+    },
+    {
+      date: "February, 2024 - August, 2025",
+      epochStart: 1706745600000,
+      epochEnd: 1755820800000,
       role: "FULL STACK SOFTWARE ENGINEER",
       company: "Vauldex Technologies",
       job_description: "Developed an AI task suggestion system using OpenAI, enhancing productivity. Built scalable APIs (Play Framework, Slick) and dynamic frontends (Vue 3, Nuxt 3). Ensured reliability with Vitest and optimized PostgreSQL databases."
