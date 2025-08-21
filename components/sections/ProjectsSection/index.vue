@@ -23,7 +23,7 @@ useHead({
           "@type": "ListItem",
           "position": index + 1,
           "name": project.name,
-          "url": `https://portfolio-brillnash.vercel.app`
+          "url": `https://portfolio-brillnash.vercel.app/#project-${index + 1}`
         }))
       })
     }
