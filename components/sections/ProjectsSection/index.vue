@@ -17,7 +17,7 @@ useHead({
       innerHTML: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "ItemList",
-        "name": projects.title,
+        "name": "Brill Nash's Projects Portfolio",
         "description": projects.description,
         "itemListElement": projects.projects.map((project, index) => ({
           "@type": "ListItem",
